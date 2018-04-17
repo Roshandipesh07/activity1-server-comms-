@@ -1,33 +1,61 @@
 //activity1-server-comms-
 
 import android.content.Context;
+
 import android.media.MediaPlayer;
+
 import android.net.Uri;
+
 import android.net.wifi.WifiManager;
+
 import android.os.AsyncTask;
+
 import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+
 import android.view.View;
+
 import android.widget.Button;
+
 import android.widget.EditText;
+
 import android.widget.ProgressBar;
+
 import android.widget.TextView;
+
 import android.widget.Toast;
+
 import android.widget.VideoView;
 
+
+
 import java.io.BufferedInputStream;
+
 import java.io.BufferedReader;
+
 import java.io.IOException;
+
 import java.io.InputStream;
+
 import java.io.InputStreamReader;
+
 import java.io.UnsupportedEncodingException;
+
 import java.net.HttpURLConnection;
+
 import java.net.MalformedURLException;
+
 import java.net.NetworkInterface;
+
 import java.net.ProtocolException;
+
 import java.net.URL;
+
 import java.util.Collections;
+
 import java.util.EventObject;
+
 import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
