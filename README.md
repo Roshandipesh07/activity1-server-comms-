@@ -181,3 +181,81 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
+
+
+//XML
+<TextView
+
+    android:id="@+id/MacAddress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.471"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.178" />
+
+<TextView
+    android:id="@+id/MacAddresstext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="128dp"
+    android:text="MAC Address:"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintHorizontal_bias="0.398" />
+
+<EditText
+    android:id="@+id/regno"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="66dp"
+    android:layout_marginTop="42dp"
+    android:ems="10"
+    android:hint="Enter Your Reg"
+    android:inputType="textPersonName"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="138dp"
+    android:layout_marginTop="320dp"
+    android:text="ID"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/httpsreq"
+    android:layout_width="285dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="31dp"
+    android:layout_marginTop="217dp"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="177dp"
+    android:layout_height="31dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="104dp"
+    android:layout_marginTop="8dp"
+    android:text="Your Unique ID is"
+    android:textSize="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.84"
+    tools:text="Your Unique ID is" />
